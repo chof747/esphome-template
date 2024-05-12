@@ -1,0 +1,10 @@
+
+substitutions:
+  deviceName: sampledevice
+  mqttBroker: !secret mqttBroker
+  mqttUser:  switch
+
+  label: "Sample Device"
+
+packages:
+  sp112: !include templates/plain.yaml
