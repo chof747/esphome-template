@@ -7,4 +7,4 @@ substitutions:
   label: "Sample Device"
 
 packages:
-  sp112: !include templates/plain.yaml
+  wemosd1mini: !include templates/wemosd1mini.yaml
